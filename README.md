@@ -42,7 +42,7 @@ Clone the repository: https://github.com/SanjaysudhanSivashunmugam/Dhoni-API
 
 ```bash
 git https://github.com/SanjaysudhanSivashunmugam/Dhoni-API
-cd dhoni-api
+cd Dhoni-API
 ```
 
 Install dependencies:
