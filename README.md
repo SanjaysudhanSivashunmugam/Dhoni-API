@@ -38,10 +38,10 @@ Install [Node.js](https://nodejs.org/) and npm.
 
 ### Installation
 
-Clone the repository:
+Clone the repository: https://github.com/SanjaysudhanSivashunmugam/Dhoni-API
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git https://github.com/SanjaysudhanSivashunmugam/Dhoni-API
 cd dhoni-api
 ```
 
@@ -63,7 +63,7 @@ For deployment, configure your hosting platform to run the start command and use
 
 ## 📖 API Documentation
 
-**Base URL:** `YOUR_DEPLOYED_API_URL`
+**Base URL:** `https://dhoni-api.onrender.com`
 
 Replace this placeholder with the public URL provided by your hosting platform.
 
@@ -102,7 +102,7 @@ Retrieves a specific reason using its unique ID.
 **Request:**
 
 ```http
-GET YOUR_DEPLOYED_API_URL/reason/1
+GET https://dhoni-api.onrender.com/reason/1
 ```
 
 **Path parameter:**
@@ -132,7 +132,7 @@ Returns all reasons matching the specified category.
 **Request:**
 
 ```http
-GET YOUR_DEPLOYED_API_URL/filter?category=Leadership
+GET https://dhoni-api.onrender.com/filter?category=Leadership
 ```
 
 **Query parameter:**
@@ -171,7 +171,7 @@ If no reasons match, the API returns an empty JSON array:
 You can call the hosted API from a frontend application using the Fetch API.
 
 ```javascript
-const API_BASE_URL = "YOUR_DEPLOYED_API_URL";
+const API_BASE_URL = "https://dhoni-api.onrender.com/";
 
 async function getRandomReason() {
     try {
@@ -193,8 +193,6 @@ async function getRandomReason() {
 
 getRandomReason();
 ```
-
-Replace `YOUR_DEPLOYED_API_URL` with your deployed API's public URL.
 
 If your frontend and API use different origins, configure CORS on the server if necessary.
 
@@ -242,9 +240,9 @@ Add a `LICENSE` file to specify how others may use and distribute this project.
 
 **Sanjaysudhan S**
 
-GitHub: Add your GitHub profile URL.
+GitHub: https://github.com/SanjaysudhanSivashunmugam
 
-LinkedIn: Add your LinkedIn profile URL.
+LinkedIn: https://www.linkedin.com/in/sanjaysudhan-sivashanmugam-a5a901255/
 
 ---
 

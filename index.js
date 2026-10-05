@@ -23,6 +23,6 @@ app.get("/filter", (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log("Server is Listening in Port " + port);
+    console.log("Server is Running");
 })
 
